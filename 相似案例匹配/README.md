@@ -118,6 +118,12 @@ webencodings          0.5.1
 Werkzeug              0.15.2
 wheel                 0.33.3
 xgboost               0.82
+keras-applications    1.0.7 
+keras-preprocessing   1.0.9 
+mock                  3.0.5 
+tensorboard           1.13.1 
+tensorflow-estimator  1.13.0 
+tensorflow-gpu        1.13.1
 ```
 
 等待补全中
