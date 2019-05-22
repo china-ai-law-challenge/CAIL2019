@@ -14,7 +14,7 @@ int main()
 
 	char *line=s;
 	while (getline(&line,&l,fin) != -1)
-		fprintf(fout,"d%d\n",rand()%2+1);
+		fprintf(fout,"%c\n",'A'+rand()%2+1);
 
 	fclose(fin);
 	fclose(fout);

@@ -7,7 +7,7 @@ inf = open(input_path,"r")
 ouf = open(output_path,"w")
 
 for line in inf:
-    print("d"+str(random.randint(1,2)),file=ouf)
+    print(["B","C"][random.randint(0,1)],file=ouf)
 
 inf.close()
 ouf.close()
