@@ -34,13 +34,12 @@ QQ群：237633234
 
 ## 现有的系统环境
 
-| 软件名称 | 版本号 |
-| -------- | ------ |
-| python   | 3.6.7  |
-| g++      | 7.4.0  |
-| gcc      | 7.4.0  |
-| java     | 暂无   |
-|          |        |
+| 软件名称 | 版本号    |
+| -------- | --------- |
+| python   | 3.6.7     |
+| g++      | 7.4.0     |
+| gcc      | 7.4.0     |
+| java     | 1.8.0_212 |
 
 python库的环境列表：
 
@@ -125,8 +124,8 @@ simplegeneric         0.8.1
 six                   1.12.0
 sklearn               0.0
 smart-open            1.8.3
-tensorboard           1.13.1
-tensorflow-estimator  1.13.0
+tensorboard           1.12.2
+tensorflow-estimator  1.12.0
 tensorflow-gpu        1.13.1
 termcolor             1.1.0
 tflearn               0.3.2
@@ -143,6 +142,28 @@ webencodings          0.5.1
 Werkzeug              0.15.2
 wheel                 0.33.4
 xgboost               0.82
+fastprogress          0.1.21
+bottleneck            1.2.1
+nvidia-ml-py3         7.352.0
+packaging             19.0
+typing                3.6.6
+soupsieve             1.9.1
+beautifulsoup4        4.7.1
+murmurhash            1.0.2
+wasabi                0.2.2
+blis                  0.2.4
+cymem                 2.0.2
+preshed               2.0.1
+plac                  0.9.6
+srsly                 0.0.5
+thinc                 7.0.4
+pyrsistent            0.15.2
+attrs                 19.1.0
+jsonschema            3.0.1
+spacy                 2.1.4
+numexpr               2.6.9
+dataclasses           0.6
+fastai                1.0.52
 ```
 
 等待补全中
