@@ -56,13 +56,16 @@ boto3                 1.9.146
 botocore              1.12.146
 bz2file               0.98
 certifi               2019.3.9
+cffi                  1.12.3
 chardet               3.0.4
+Click                 7.0
 cryptography          2.1.4
 cycler                0.10.0
 Cython                0.29.7
 decorator             4.1.2
 docutils              0.14
 fasttext              0.8.3
+Flask                 1.0.3
 future                0.17.1
 gast                  0.2.2
 gensim                3.7.3
@@ -72,10 +75,14 @@ html5lib              1.0.1
 idna                  2.8
 ipython               5.5.0
 ipython-genutils      0.2.0
+itsdangerous          1.1.0
+jeepney               0.4
 jieba                 0.39
+Jinja2                2.10.1
 jmespath              0.9.4
 joblib                0.13.2
-JPype1                0.6.3
+Keras-Applications    1.0.7
+Keras-Preprocessing   1.0.9
 keyring               10.6.0
 keyrings.alt          3.0
 kiwisolver            1.1.0
@@ -84,6 +91,7 @@ Mako                  1.0.10
 Markdown              3.1
 MarkupSafe            1.1.1
 matplotlib            3.0.3
+mock                  3.0.5
 numpy                 1.16.3
 pandas                0.24.2
 pexpect               4.2.1
@@ -92,16 +100,20 @@ Pillow                6.0.0
 pip                   9.0.1
 prompt-toolkit        1.0.15
 protobuf              3.7.1
+ptyprocess            0.6.0
+pycparser             2.19
 pycrypto              2.6.1
+pycurl                7.43.0
 Pygments              2.2.0
-pygobject             3.26.1
-pyhanlp               0.1.45
+pygobject             3.20.0
 pyparsing             2.4.0
-python-apt            1.6.3+ubuntu1
+python-apt            1.1.0b1+ubuntu0.16.4.4
 python-dateutil       2.8.0
+pytorch-pretrained-bert0.6.2
 pytz                  2019.1
 pyxdg                 0.25
 PyYAML                5.1
+regex                 2019.4.14
 requests              2.21.0
 s3transfer            0.2.0
 scikit-learn          0.21.0
@@ -113,6 +125,9 @@ simplegeneric         0.8.1
 six                   1.12.0
 sklearn               0.0
 smart-open            1.8.3
+tensorboard           1.13.1
+tensorflow-estimator  1.13.0
+tensorflow-gpu        1.13.1
 termcolor             1.1.0
 tflearn               0.3.2
 Theano                1.0.4
@@ -122,20 +137,18 @@ torchvision           0.2.2.post3
 tqdm                  4.31.1
 traitlets             4.3.2
 unattended-upgrades   0.1
-urllib3               1.25.2
+urllib3               1.24.3
 wcwidth               0.1.7
 webencodings          0.5.1
 Werkzeug              0.15.2
-wheel                 0.33.3
+wheel                 0.33.4
 xgboost               0.82
-keras-applications    1.0.7 
-keras-preprocessing   1.0.9 
-mock                  3.0.5 
-tensorboard           1.13.1 
-tensorflow-estimator  1.13.0 
-tensorflow-gpu        1.13.1
 ```
 
 等待补全中
+
+同时，我们会将一些模型提供在``/model``路径下，现在已有的模型有：
+
+* ``/model/bert``：预训练好的bert模型参数和config，包含``bert_config.json``、``pytorch_model.bin``和``vocab.txt``。
 
 如果你有需要的环境，请联系比赛管理员进行安装。
