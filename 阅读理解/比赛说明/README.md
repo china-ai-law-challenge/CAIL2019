@@ -10,7 +10,7 @@
 ### 评测任务概述
 裁判文书中包含了丰富的案件信息，比如时间、地点、人物关系等等，通过机器智能化地阅读理解裁判文书，可以更快速、便捷地辅助法官、律师以及普通大众获取所需信息。本次比赛是首次基于中文裁判文书的阅读理解比赛，属于篇章片段抽取型阅读理解比赛（Span-Extraction Machine Reading Comprehension）。为了增加问题的多样性，参考英文阅读理解比赛SQuAD和CoQA，本比赛增加了拒答以及是否类（YES/NO）问题（样例见下图）。鉴于民事和刑事裁判文书在事实描述部分差异性较大，相应的问题类型也不尽相同，为了能同时兼顾这两种裁判文书，从而覆盖大多数裁判文书，本次比赛会设置民事和刑事两类测试集。
 
-![example](https://github.com/iFlytekJudiciary/CAIL2019_CJRC/blob/master/picture/example2.jpg)
+![example](https://github.com/china-ai-law-challenge/CAIL2019/blob/master/%E9%98%85%E8%AF%BB%E7%90%86%E8%A7%A3/%E6%AF%94%E8%B5%9B%E8%AF%B4%E6%98%8E/picture/example2.jpg)
 
 比赛行程划分为两个阶段，第一阶段根据开发集的测试结果排名，第二阶段根据测试集的测试结果排名。比赛最终成绩计算方式：最终成绩 = 第一阶段的成绩 * 0.3 + 第二阶段的成绩 * 0.7
 
@@ -18,7 +18,7 @@
 本次比赛采用与CoQA比赛一致的宏平均（macro-average F1）进行评估。
 对于每个问题，需要与N个标准回答计算得到N个F1，并取最大值作为其F1值。然而在评估人类表现（Human Performance）的时候，每个标准回答需要与N-1个其它标准回答计算F1值。为了更公平地对比指标，需要把N个标准回答按照N-1一组的方式分成N组，最终每个问题的F1值为这N组F1的平均值。整个数据集的F1值为所有数据F1的平均值。计算公式如下：
 
-![equation](https://github.com/iFlytekJudiciary/CAIL2019_CJRC/blob/master/picture/equation2.jpg)
+![equation](https://github.com/china-ai-law-challenge/CAIL2019/blob/master/%E9%98%85%E8%AF%BB%E7%90%86%E8%A7%A3/%E6%AF%94%E8%B5%9B%E8%AF%B4%E6%98%8E/picture/equation2.jpg)
 
 其中，InterSec计算预测回答与标准回答的交集（以字为单位），Countref表示标准回答数目（3个），max部分取预测回答与每个标准回答（除当前标准回答外，目的是与评估人类水平的方法一致）F1值的最大值。最终得分为刑事和民事测试集宏平均F1值的平均值。
 
@@ -76,4 +76,4 @@ SMP2019大会期间召开研讨会	2019年8月16日-2019年8月18日
 ## 法小飞
 由哈工大讯飞联合实验室出品的“法小飞”智能法律咨询助手应用了对话型阅读理解技术，在为用户提供精准答案的同时提升了用户的对话交互体验。“法小飞”是一个服务公众和律师的法律咨询助手，旨在利用自然语言处理技术和法律专业知识，为用户提供快速优质的法律咨询及相关服务。“法小飞”通过学习大量的法律知识，对当事人提出的法律问题进行自动解答，并且能够针对刑事和民事案件进行深入的案情分析，拥有类案推送、法条推荐、判决预测和律师推荐的功能。
 
-<div align=center><img width="400" height="400" src="https://github.com/iFlytekJudiciary/CAIL2019_CJRC/blob/master/picture/iflylegal2.jpg"/></div>
+<div align=center><img width="400" height="400" src="https://github.com/china-ai-law-challenge/CAIL2019/blob/master/%E9%98%85%E8%AF%BB%E7%90%86%E8%A7%A3/%E6%AF%94%E8%B5%9B%E8%AF%B4%E6%98%8E/picture/iflylegal2.jpg"/></div>
