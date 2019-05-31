@@ -1,38 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6d0f81e-960e-4a09-a92b-eee8faf0abef" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/要素识别/baseline/predictor/model_divorce/tag.model" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/要素识别/baseline/predictor/model_divorce/tag.model_01.npy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/要素识别/baseline/predictor/model_divorce/tag.model_02.npy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/要素识别/baseline/predictor/model_divorce/tag.model_03.npy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/要素识别/baseline/predictor/model_divorce/tfidf.model" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/要素识别/baseline/predictor/model_divorce/tfidf.model_01.npy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/要素识别/baseline/predictor/model_divorce/tfidf.model_02.npy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/要素识别/baseline/predictor/model_labor/tag.model" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/要素识别/baseline/predictor/model_labor/tag.model_01.npy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/要素识别/baseline/predictor/model_labor/tag.model_02.npy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/要素识别/baseline/predictor/model_labor/tag.model_03.npy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/要素识别/baseline/predictor/model_labor/tfidf.model" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/要素识别/baseline/predictor/model_labor/tfidf.model_01.npy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/要素识别/baseline/predictor/model_labor/tfidf.model_02.npy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/要素识别/baseline/predictor/model_loan/tag.model" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/要素识别/baseline/predictor/model_loan/tag.model_01.npy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/要素识别/baseline/predictor/model_loan/tag.model_02.npy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/要素识别/baseline/predictor/model_loan/tag.model_03.npy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/要素识别/baseline/predictor/model_loan/tfidf.model" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/要素识别/baseline/predictor/model_loan/tfidf.model_01.npy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/要素识别/baseline/predictor/model_loan/tfidf.model_02.npy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/要素识别/baseline/predictor/predictor.zip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/要素识别/baseline/predictor/tags/divorce/tags.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/要素识别/baseline/predictor/tags/labor/tags.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/要素识别/baseline/predictor/tags/loan/tags.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/要素识别/baseline/predictor/__init__.py" afterPath="$PROJECT_DIR$/要素识别/baseline/predictor/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/要素识别/python_sample/main.py" afterPath="$PROJECT_DIR$/要素识别/python_sample/main.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/要素识别/baseline/predictor/predictor.py" afterPath="$PROJECT_DIR$/要素识别/baseline/predictor/main.py" />
-    </list>
+    <list default="true" id="d6d0f81e-960e-4a09-a92b-eee8faf0abef" name="Default" comment="" />
     <ignored path="cail2019.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,11 +32,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="judger.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="judger.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/要素识别/judger.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2640">
-              <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+            <state relative-caret-position="484">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -421,7 +400,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1591" y="-9" width="1938" height="1098" extended-state="6" />
+    <frame x="1591" y="-9" width="1938" height="1098" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20466596" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -743,18 +722,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/要素识别/judger.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+        <state relative-caret-position="484">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/要素识别/judger.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2640">
-          <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
           <folding />
         </state>
       </provider>
