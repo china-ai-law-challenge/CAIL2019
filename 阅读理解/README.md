@@ -32,6 +32,7 @@ QQ群：237633234
 Package             Version               
 ------------------- ----------------------
 absl-py (0.7.1)
+apex (0.1)
 asn1crypto (0.24.0)
 astor (0.7.1)
 bert-serving-client (1.9.1)
@@ -135,7 +136,7 @@ Theano (1.0.4)
 thulac (0.2.0)
 torch (1.1.0)
 torchtext (0.3.1)
-torchvision (0.2.2.post3)
+torchvision (0.3.0)
 tqdm (4.31.1)
 traitlets (4.3.2)
 unattended-upgrades (0.1)
