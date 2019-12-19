@@ -11,7 +11,16 @@ QQ群：237633234
 如果本目录中的内容对你的研究工作有所帮助，请在文献中引用下述技术报告：
 
 ```
-Duan X. et al. (2019) CJRC: A Reliable Human-Annotated Benchmark DataSet for Chinese Judicial Reading Comprehension. In: Sun M., Huang X., Ji H., Liu Z., Liu Y. (eds) Chinese Computational Linguistics. CCL 2019. Lecture Notes in Computer Science, vol 11856. Springer, Cham
+@InProceedings{10.1007/978-3-030-32381-3_36,
+author="Duan, Xingyi and Wang, Baoxin and Wang, Ziyue and Ma, Wentao and Cui, Yiming and Wu, Dayong and Wang, Shijin and Liu, Ting and Huo, Tianxiang and Hu, Zhen and Wang, Heng and Liu, Zhiyuan",
+editor="Sun, Maosong and Huang, Xuanjing and Ji, Heng and Liu, Zhiyuan and Liu, Yang",
+title="CJRC: A Reliable Human-Annotated Benchmark DataSet for Chinese Judicial Reading Comprehension",
+booktitle="Chinese Computational Linguistics",
+year="2019",
+publisher="Springer International Publishing",
+address="Cham",
+pages="439--451",
+}
 ```
 
 ## 数据说明
