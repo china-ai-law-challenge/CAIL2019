@@ -6,6 +6,14 @@
 
 QQ群：237633234
 
+## 引用
+
+如果本目录中的内容对你的研究工作有所帮助，请在文献中引用下述技术报告：
+
+```
+Duan X. et al. (2019) CJRC: A Reliable Human-Annotated Benchmark DataSet for Chinese Judicial Reading Comprehension. In: Sun M., Huang X., Ji H., Liu Z., Liu Y. (eds) Chinese Computational Linguistics. CCL 2019. Lecture Notes in Computer Science, vol 11856. Springer, Cham
+```
+
 ## 数据说明
 
 本任务所使用的数据集是来自“中国裁判文书网”公开的法律文书，主要涉及民事和刑事的一审判决书，总共约1万份数据，并按比例划分训练、开发和测试。每份数据包括若干个问题，对于训练集，每个问题只包含一个标准回答，对于开发和测试集，每个问题包含3个标准回答。回答内容可以是案情片段，可以是YES或NO，也可以拒答即回答内容为空。
