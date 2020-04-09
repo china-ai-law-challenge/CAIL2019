@@ -4,6 +4,19 @@
 
 数据集下载地址：[链接](https://cail.oss-cn-qingdao.aliyuncs.com/cail2019/CAIL2019-SCM.zip)
 
+## 数据集引用
+
+如果你要在学术论文中引用数据集，请使用如下bib
+
+````tex
+@article{xiao2019cail2019,
+  title={CAIL2019-SCM: A Dataset of Similar Case Matching in Legal Domain},
+  author={Xiao, Chaojun and Zhong, Haoxi and Guo, Zhipeng and Tu, Cunchao and Liu, Zhiyuan and Sun, Maosong and Zhang, Tianyang and Han, Xianpei and Wang, Heng and Xu, Jianfeng and others},
+  journal={arXiv preprint arXiv:1911.08962},
+  year={2019}
+}
+````
+
 
 ## 选手交流群
 
