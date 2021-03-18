@@ -3,6 +3,7 @@
 该项目为 **CAIL2019——相似案例匹配** 的代码和模型提交说明。
 
 数据集下载地址：[链接](https://cail.oss-cn-qingdao.aliyuncs.com/cail2019/CAIL2019-SCM.zip)
+案件要素标注下载地址：[链接](https://data.thunlp.org/legal/mjjd_element.json)
 
 ## 数据集引用
 
